@@ -6,16 +6,14 @@ internal class Program
 {
     private static void Main(string[] args)
     {
-
-        TwoSum twoSum = new TwoSum();
-        int[] data = new int[100000000];
-        for (int i = 0; i < 99999999; i++)
+        Random random = new Random();
+        BestTimetoBuyandSellStock obj = new BestTimetoBuyandSellStock();
+        int[] data = new int[10];
+        for (int i = 0; i < 9; i++)
         {
-            data[i] = i;
+            data[i] = random.Next(20);
         }
-        Console.WriteLine(data.Length);
-
-        int[] result = twoSum.TwoSumMethod(data, 180000000);
-        Console.WriteLine("Result:{0},{1}", result[0], result[1]);
+        int result = obj.BestTimetoBuyandSellStockMethod(data);
+        Console.WriteLine("Result:{0}", result);
     }
 }
