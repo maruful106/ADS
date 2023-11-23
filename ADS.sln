@@ -15,6 +15,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Basic", "Basic", "{733E98AE
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DependencyInjection", "DependencyInjection\DependencyInjection.csproj", "{BF16AF72-80AE-41BC-9FE0-2A7667AB04EF}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ObserverPattern", "ObserverPattern\ObserverPattern.csproj", "{4C8F809D-2826-475D-BE23-8D229965681B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{BF16AF72-80AE-41BC-9FE0-2A7667AB04EF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BF16AF72-80AE-41BC-9FE0-2A7667AB04EF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BF16AF72-80AE-41BC-9FE0-2A7667AB04EF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4C8F809D-2826-475D-BE23-8D229965681B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4C8F809D-2826-475D-BE23-8D229965681B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4C8F809D-2826-475D-BE23-8D229965681B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4C8F809D-2826-475D-BE23-8D229965681B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -42,6 +48,7 @@ Global
 		{657C6482-818D-4D84-AABE-9A958553515D} = {48C558B4-9057-4E3B-9197-A89BDB6FC4DA}
 		{733E98AE-7359-4A08-BE40-1DFB9F334BC9} = {2F1AD541-6BB0-4744-9BBA-A960E294E576}
 		{BF16AF72-80AE-41BC-9FE0-2A7667AB04EF} = {733E98AE-7359-4A08-BE40-1DFB9F334BC9}
+		{4C8F809D-2826-475D-BE23-8D229965681B} = {48C558B4-9057-4E3B-9197-A89BDB6FC4DA}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {3CCA9132-17F8-4496-BF65-E52BCAA172C5}
